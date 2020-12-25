@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-color: rgb(251, 250, 251);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.instagram_screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 60%;
+    height: 100vh;
+}
+
+.instagram_login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 50rem;
+}
+.login_cadastro{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(241, 240, 241);;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    margin-left: 0;
+    background-color: white;
+    padding: 20px;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    max-width: 50rem;
+}
+.not_account{
+    margin-bottom: 8px;
+    color:grey;
+}
+.not_account a{
+    font-weight: bold;
+    color: rgb(41, 151, 246);
+}
+.profile_photo img{
+    border-radius: 50%;
+    width: 6rem;
+}
+.login_cadastro img,.login_cadastro a{
+    margin-bottom: 20px;
+}
+.instagram_gif img{
+    margin-right: 20px;
+    height: 40rem;
+}
+.logo{
+    height: 3rem;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.down_buttons img{
+    height: 40px;
+    margin-top: 20px;
+}
+.login_button{
+    background-color: rgb(44, 142, 250);
+    width: 200px;
+    height: 25px;
+    color: aliceblue;
+    font-weight: bold;
+    border: 2px solid rgb(56, 132, 215);
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+
+}
+.logout_button{
+        font-weight: bold;
+        color: rgb(41, 151, 246);
+    }
+
+/*responsividade*/
+@media (max-width: 1024px) {
+    .instagram_gif{
+        width:200%
+    }
+}
+
+@media (max-width: 650px) {
+    .instagram_screen{
+        width:200%
+    }
+    .instagram_gif{
+        display: none;
+    }
+}
